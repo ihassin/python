@@ -1,6 +1,4 @@
-from markov import Markov, get_table
+from markov import Markov
 
-m = Markov('i will try to use this buggy program to predict what the next letter is')
-b = m.predict('b')
-
-print('<' + b + '>')
+print(Markov('i will try to use this great awesome program to predict what the next letter is as im adamant to try it out').
+  predict('a'))
